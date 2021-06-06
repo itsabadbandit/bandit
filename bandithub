@@ -1,0 +1,163 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local IY = Instance.new("TextButton")
+local DH = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.00759301474, 0, 0.660933614, 0)
+Frame.Size = UDim2.new(0, 337, 0, 193)
+Frame.Style = Enum.FrameStyle.RobloxRound
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(50, 50, 48)
+TextBox.Position = UDim2.new(0.00929130614, 0, -0.20303899, 0)
+TextBox.Size = UDim2.new(0, 193, 0, 44)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.Nunito
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.Text = "Bandit Hub"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0.0237388723, 0, 0.117774762, 0)
+ScrollingFrame.Size = UDim2.new(0, 316, 0, 157)
+
+IY.Name = "IY"
+IY.Parent = ScrollingFrame
+IY.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+IY.Position = UDim2.new(0.010654768, 0, 0.0310880821, 0)
+IY.Size = UDim2.new(0, 95, 0, 34)
+IY.Font = Enum.Font.SourceSans
+IY.Text = "Infinite Yield"
+IY.TextColor3 = Color3.fromRGB(0, 0, 0)
+IY.TextSize = 14.000
+
+DH.Name = "DH"
+DH.Parent = ScrollingFrame
+DH.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+DH.Position = UDim2.new(0.330821425, 0, 0.0310880821, 0)
+DH.Size = UDim2.new(0, 95, 0, 34)
+DH.Font = Enum.Font.SourceSans
+DH.Text = "Da Hood"
+DH.TextColor3 = Color3.fromRGB(0, 0, 0)
+DH.TextSize = 14.000
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton.Position = UDim2.new(0.659935355, 0, 0.0310880821, 0)
+TextButton.Size = UDim2.new(0, 95, 0, 34)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_2.Position = UDim2.new(0.010654768, 0, 0.150259063, 0)
+TextButton_2.Size = UDim2.new(0, 95, 0, 34)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_3.Position = UDim2.new(0.330821425, 0, 0.150259063, 0)
+TextButton_3.Size = UDim2.new(0, 95, 0, 34)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_4.Position = UDim2.new(0.659935355, 0, 0.150259063, 0)
+TextButton_4.Size = UDim2.new(0, 95, 0, 34)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_5.Position = UDim2.new(0.010654768, 0, 0.259067327, 0)
+TextButton_5.Size = UDim2.new(0, 95, 0, 34)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_6.Position = UDim2.new(0.330821425, 0, 0.259067327, 0)
+TextButton_6.Size = UDim2.new(0, 95, 0, 34)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_7.Position = UDim2.new(0.659935355, 0, 0.259067327, 0)
+TextButton_7.Size = UDim2.new(0, 95, 0, 34)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_8.Position = UDim2.new(0.010654768, 0, 0.37823832, 0)
+TextButton_8.Size = UDim2.new(0, 95, 0, 34)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_9.Position = UDim2.new(0.330821425, 0, 0.37823832, 0)
+TextButton_9.Size = UDim2.new(0, 95, 0, 34)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_10.Position = UDim2.new(0.659935355, 0, 0.37823832, 0)
+TextButton_10.Size = UDim2.new(0, 95, 0, 34)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 14.000
+
+-- Scripts:
+
+local function MDFSQND_fake_script() -- IY.Script 
+	local script = Instance.new('LocalScript', IY)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(MDFSQND_fake_script)()
