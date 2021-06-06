@@ -1,29 +1,32 @@
-local ScreenGui = Instance.new("ScreenGui")
+local BanditHub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextBox = Instance.new("TextBox")
 local ScrollingFrame = Instance.new("ScrollingFrame")
 local IY = Instance.new("TextButton")
-local DH = Instance.new("TextButton")
 local TextButton = Instance.new("TextButton")
 local TextButton_2 = Instance.new("TextButton")
+local Skyhub = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
 local TextButton_4 = Instance.new("TextButton")
 local TextButton_5 = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
 local TextButton_7 = Instance.new("TextButton")
 local TextButton_8 = Instance.new("TextButton")
-local TextButton_9 = Instance.new("TextButton")
-local TextButton_10 = Instance.new("TextButton")
+local DH = Instance.new("TextButton")
+local TextBox_2 = Instance.new("TextBox")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+BanditHub.Name = "BanditHub"
+BanditHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BanditHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = ScreenGui
+Frame.Parent = BanditHub
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.Position = UDim2.new(0.00759301474, 0, 0.660933614, 0)
 Frame.Size = UDim2.new(0, 337, 0, 193)
+Frame.Visible = false
 Frame.Style = Enum.FrameStyle.RobloxRound
 
 TextBox.Parent = Frame
@@ -56,16 +59,6 @@ IY.Text = "Infinite Yield"
 IY.TextColor3 = Color3.fromRGB(0, 0, 0)
 IY.TextSize = 14.000
 
-DH.Name = "DH"
-DH.Parent = ScrollingFrame
-DH.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-DH.Position = UDim2.new(0.330821425, 0, 0.0310880821, 0)
-DH.Size = UDim2.new(0, 95, 0, 34)
-DH.Font = Enum.Font.SourceSans
-DH.Text = "Da Hood"
-DH.TextColor3 = Color3.fromRGB(0, 0, 0)
-DH.TextSize = 14.000
-
 TextButton.Parent = ScrollingFrame
 TextButton.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 TextButton.Position = UDim2.new(0.659935355, 0, 0.0310880821, 0)
@@ -82,9 +75,19 @@ TextButton_2.Font = Enum.Font.SourceSans
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextSize = 14.000
 
+Skyhub.Name = "Skyhub"
+Skyhub.Parent = ScrollingFrame
+Skyhub.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+Skyhub.Position = UDim2.new(0.330821425, 0, 0.150259063, 0)
+Skyhub.Size = UDim2.new(0, 95, 0, 34)
+Skyhub.Font = Enum.Font.SourceSans
+Skyhub.Text = "Skyhub"
+Skyhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Skyhub.TextSize = 14.000
+
 TextButton_3.Parent = ScrollingFrame
 TextButton_3.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-TextButton_3.Position = UDim2.new(0.330821425, 0, 0.150259063, 0)
+TextButton_3.Position = UDim2.new(0.659935355, 0, 0.150259063, 0)
 TextButton_3.Size = UDim2.new(0, 95, 0, 34)
 TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -92,7 +95,7 @@ TextButton_3.TextSize = 14.000
 
 TextButton_4.Parent = ScrollingFrame
 TextButton_4.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-TextButton_4.Position = UDim2.new(0.659935355, 0, 0.150259063, 0)
+TextButton_4.Position = UDim2.new(0.010654768, 0, 0.259067327, 0)
 TextButton_4.Size = UDim2.new(0, 95, 0, 34)
 TextButton_4.Font = Enum.Font.SourceSans
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -100,15 +103,25 @@ TextButton_4.TextSize = 14.000
 
 TextButton_5.Parent = ScrollingFrame
 TextButton_5.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-TextButton_5.Position = UDim2.new(0.010654768, 0, 0.259067327, 0)
+TextButton_5.Position = UDim2.new(0.330821425, 0, 0.259067327, 0)
 TextButton_5.Size = UDim2.new(0, 95, 0, 34)
 TextButton_5.Font = Enum.Font.SourceSans
 TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.TextSize = 14.000
 
+MM2.Name = "MM2"
+MM2.Parent = ScrollingFrame
+MM2.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+MM2.Position = UDim2.new(0.659935355, 0, 0.259067327, 0)
+MM2.Size = UDim2.new(0, 95, 0, 34)
+MM2.Font = Enum.Font.SourceSans
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextSize = 14.000
+
 TextButton_6.Parent = ScrollingFrame
 TextButton_6.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-TextButton_6.Position = UDim2.new(0.330821425, 0, 0.259067327, 0)
+TextButton_6.Position = UDim2.new(0.010654768, 0, 0.37823832, 0)
 TextButton_6.Size = UDim2.new(0, 95, 0, 34)
 TextButton_6.Font = Enum.Font.SourceSans
 TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -116,7 +129,7 @@ TextButton_6.TextSize = 14.000
 
 TextButton_7.Parent = ScrollingFrame
 TextButton_7.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-TextButton_7.Position = UDim2.new(0.659935355, 0, 0.259067327, 0)
+TextButton_7.Position = UDim2.new(0.330821425, 0, 0.37823832, 0)
 TextButton_7.Size = UDim2.new(0, 95, 0, 34)
 TextButton_7.Font = Enum.Font.SourceSans
 TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -124,35 +137,126 @@ TextButton_7.TextSize = 14.000
 
 TextButton_8.Parent = ScrollingFrame
 TextButton_8.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-TextButton_8.Position = UDim2.new(0.010654768, 0, 0.37823832, 0)
+TextButton_8.Position = UDim2.new(0.659935355, 0, 0.37823832, 0)
 TextButton_8.Size = UDim2.new(0, 95, 0, 34)
 TextButton_8.Font = Enum.Font.SourceSans
 TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_8.TextSize = 14.000
 
-TextButton_9.Parent = ScrollingFrame
-TextButton_9.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-TextButton_9.Position = UDim2.new(0.330821425, 0, 0.37823832, 0)
-TextButton_9.Size = UDim2.new(0, 95, 0, 34)
-TextButton_9.Font = Enum.Font.SourceSans
-TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_9.TextSize = 14.000
+DH.Name = "DH"
+DH.Parent = ScrollingFrame
+DH.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+DH.Position = UDim2.new(0.330821425, 0, 0.0310880821, 0)
+DH.Size = UDim2.new(0, 95, 0, 34)
+DH.Font = Enum.Font.SourceSans
+DH.Text = "Da Hood"
+DH.TextColor3 = Color3.fromRGB(0, 0, 0)
+DH.TextSize = 14.000
 
-TextButton_10.Parent = ScrollingFrame
-TextButton_10.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
-TextButton_10.Position = UDim2.new(0.659935355, 0, 0.37823832, 0)
-TextButton_10.Size = UDim2.new(0, 95, 0, 34)
-TextButton_10.Font = Enum.Font.SourceSans
-TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton_10.TextSize = 14.000
+TextBox_2.Parent = Frame
+TextBox_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+TextBox_2.Position = UDim2.new(0.641460299, 0, -0.124352328, 0)
+TextBox_2.Size = UDim2.new(0, 113, 0, 32)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = "Use - key to toggle"
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextSize = 14.000
 
 -- Scripts:
 
-local function MDFSQND_fake_script() -- IY.Script 
+local function ZNPRCHE_fake_script() -- IY.Script 
 	local script = Instance.new('LocalScript', IY)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(MDFSQND_fake_script)()
+coroutine.wrap(ZNPRCHE_fake_script)()
+local function CTABPI_fake_script() -- Skyhub.Script 
+	local script = Instance.new('LocalScript', Skyhub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.MainI = Color3.fromRGB(203 ,156, 255)
+		_G.MainII = Color3.fromRGB(140, 166 ,252)
+		_G.ButtonI = Color3.fromRGB(203 ,156, 255)
+		_G.ButtonII = Color3.fromRGB(140, 166 ,252)
+		_G.BlackGround = Color3.fromRGB(140, 166 ,252)
+		-- SCRIPT GAME --
+		loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/main%20game.lua"))()
+	end)
+end
+coroutine.wrap(CTABPI_fake_script)()
+local function JVBJQPS_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(JVBJQPS_fake_script)()
+local function LWJV_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(LWJV_fake_script)()
+local function KLTNMBC_fake_script() -- MM2.Script 
+	local script = Instance.new('LocalScript', MM2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+	end)
+end
+coroutine.wrap(KLTNMBC_fake_script)()
+local function VKDC_fake_script() -- DH.Script 
+	local script = Instance.new('LocalScript', DH)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+	end)
+end
+coroutine.wrap(VKDC_fake_script)()
+local function UHCLV_fake_script() -- Frame.toggle 
+	local script = Instance.new('LocalScript', Frame)
+
+	local frame = script.Parent
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+		if key == "e" then
+			if frame.Visible == true then
+				frame.Visible = false
+			else
+				frame.Visible = true
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(UHCLV_fake_script)()
+local function NIFI_fake_script() -- Frame.Notify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local function callback(Text)
+		if Text == "Button1 text" then
+			print ("Answer")
+		elseif Text == ("Button2 text") then
+			print ("Answer2")
+		end
+	end
+	
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	--
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "BanditHub";
+		Text = "Bandit Hub has successfully loaded, press E to open it.";
+		Icon = "";
+		Duration = 5;
+		Button1 = "ok";
+		Callback = NotificationBindable;
+	})
+	
+end
+coroutine.wrap(NIFI_fake_script)()
