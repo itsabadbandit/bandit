@@ -1,0 +1,297 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local BanditHub2 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextBox_2 = Instance.new("TextBox")
+
+--Properties:
+
+BanditHub2.Name = "BanditHub2"
+BanditHub2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BanditHub2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = BanditHub2
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.00759301474, 0, 0.660933614, 0)
+Frame.Size = UDim2.new(0, 337, 0, 193)
+Frame.Visible = false
+Frame.Style = Enum.FrameStyle.RobloxRound
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(50, 50, 48)
+TextBox.Position = UDim2.new(0.00929130614, 0, -0.20303899, 0)
+TextBox.Selectable = false
+TextBox.Size = UDim2.new(0, 193, 0, 44)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.Nunito
+TextBox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
+TextBox.Text = "Bandit Hub"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Position = UDim2.new(0.0237388723, 0, 0.117774762, 0)
+ScrollingFrame.Size = UDim2.new(0, 316, 0, 157)
+
+TextButton.Parent = ScrollingFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton.Position = UDim2.new(0.010654768, 0, 0.0310880821, 0)
+TextButton.Size = UDim2.new(0, 95, 0, 34)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Space Lifters Weight"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = ScrollingFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_2.Position = UDim2.new(0.659935355, 0, 0.0310880821, 0)
+TextButton_2.Size = UDim2.new(0, 95, 0, 34)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Nothing"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = ScrollingFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_3.Position = UDim2.new(0.010654768, 0, 0.150259063, 0)
+TextButton_3.Size = UDim2.new(0, 95, 0, 34)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Space Lifters Double Weight"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = ScrollingFrame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_4.Position = UDim2.new(0.330821425, 0, 0.150259063, 0)
+TextButton_4.Size = UDim2.new(0, 95, 0, 34)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Skyhub"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = ScrollingFrame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_5.Position = UDim2.new(0.659935355, 0, 0.150259063, 0)
+TextButton_5.Size = UDim2.new(0, 95, 0, 34)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Nothing"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+TextButton_6.Parent = ScrollingFrame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_6.Position = UDim2.new(0.010654768, 0, 0.259067327, 0)
+TextButton_6.Size = UDim2.new(0, 95, 0, 34)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Nothing"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = ScrollingFrame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_7.Position = UDim2.new(0.330821425, 0, 0.259067327, 0)
+TextButton_7.Size = UDim2.new(0, 95, 0, 34)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Nothing"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = ScrollingFrame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_8.Position = UDim2.new(0.659935355, 0, 0.259067327, 0)
+TextButton_8.Size = UDim2.new(0, 95, 0, 34)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "MM2"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = ScrollingFrame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_9.Position = UDim2.new(0.010654768, 0, 0.37823832, 0)
+TextButton_9.Size = UDim2.new(0, 95, 0, 34)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "Nothing"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+TextButton_10.Parent = ScrollingFrame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_10.Position = UDim2.new(0.330821425, 0, 0.37823832, 0)
+TextButton_10.Size = UDim2.new(0, 95, 0, 34)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "Nothing"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
+
+TextButton_11.Parent = ScrollingFrame
+TextButton_11.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_11.Position = UDim2.new(0.659935355, 0, 0.37823832, 0)
+TextButton_11.Size = UDim2.new(0, 95, 0, 34)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "Nothing"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextScaled = true
+TextButton_11.TextSize = 14.000
+TextButton_11.TextWrapped = true
+
+TextButton_12.Parent = ScrollingFrame
+TextButton_12.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
+TextButton_12.Position = UDim2.new(0.330821425, 0, 0.0310880821, 0)
+TextButton_12.Size = UDim2.new(0, 95, 0, 34)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "Lifting Items Simulator"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextScaled = true
+TextButton_12.TextSize = 14.000
+TextButton_12.TextWrapped = true
+
+TextBox_2.Parent = Frame
+TextBox_2.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+TextBox_2.Position = UDim2.new(0.641460299, 0, -0.124352328, 0)
+TextBox_2.Selectable = false
+TextBox_2.Size = UDim2.new(0, 113, 0, 32)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = "Use - key to toggle"
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+-- Scripts:
+
+local function ZSFP_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local name = game.Players.LocalPlayer.Name
+	
+	game.ReplicatedStorage.addStrength:FireServer(workspace.name.Weight.Handle, 11)
+end
+coroutine.wrap(ZSFP_fake_script)()
+local function JYAG_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local name = game.Players.LocalPlayer.Name
+	
+	game.ReplicatedStorage.addStrength:FireServer(workspace.name["Double Weight"].Handle, 13)
+end
+coroutine.wrap(JYAG_fake_script)()
+local function UJPUQPM_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	local A_1 = 
+		{
+			["Increase"] = 500
+		}
+	local Event = game:GetService("Workspace").Remotes.RemoteFunction
+	Event:InvokeServer(A_1)
+end
+coroutine.wrap(UJPUQPM_fake_script)()
+local function JTHDKZ_fake_script() -- Frame.toggle 
+	local script = Instance.new('LocalScript', Frame)
+
+	local frame = script.Parent
+	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+		if key == "-" then
+			if frame.Visible == true then
+				frame.Visible = false
+			else
+				frame.Visible = true
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(JTHDKZ_fake_script)()
+local function YUQGLE_fake_script() -- Frame.Notify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local function callback(Text)
+		if Text == "Button1 text" then
+			print ("Answer")
+		elseif Text == ("Button2 text") then
+			print ("Answer2")
+		end
+	end
+	
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	--
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "BanditHub";
+		Text = "Make sure to have the tools equipped for things like Space Lifters. Recommended to use an autoclicker.";
+		Icon = "";
+		Duration = 10;
+		Button1 = "ok";
+		Callback = NotificationBindable;
+	})
+	
+end
+coroutine.wrap(YUQGLE_fake_script)()
+local function SGEYXPT_fake_script() -- Frame.Notify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local function callback(Text)
+		if Text == "Button1 text" then
+			print ("Answer")
+		elseif Text == ("Button2 text") then
+			print ("Answer2")
+		end
+	end
+	
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	--
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "BanditHub";
+		Text = "Weight version of Bandit Hub has successfully loaded, press - to open and close it.";
+		Icon = "";
+		Duration = 5;
+		Button1 = "ok";
+		Callback = NotificationBindable;
+	})
+	
+end
+coroutine.wrap(SGEYXPT_fake_script)()
