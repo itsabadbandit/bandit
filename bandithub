@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local BanditHub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextBox = Instance.new("TextBox")
@@ -64,7 +69,7 @@ Jailbreak.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 Jailbreak.Position = UDim2.new(0.659935355, 0, 0.0310880821, 0)
 Jailbreak.Size = UDim2.new(0, 95, 0, 34)
 Jailbreak.Font = Enum.Font.SourceSans
-Jailbreak.Text = "Jailbreak"
+Jailbreak.Text = "Nothing"
 Jailbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
 Jailbreak.TextSize = 14.000
 
@@ -73,6 +78,7 @@ TextButton.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 TextButton.Position = UDim2.new(0.010654768, 0, 0.150259063, 0)
 TextButton.Size = UDim2.new(0, 95, 0, 34)
 TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Nothing"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 
@@ -91,6 +97,7 @@ TextButton_2.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 TextButton_2.Position = UDim2.new(0.659935355, 0, 0.150259063, 0)
 TextButton_2.Size = UDim2.new(0, 95, 0, 34)
 TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Nothing"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextSize = 14.000
 
@@ -99,6 +106,7 @@ TextButton_3.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 TextButton_3.Position = UDim2.new(0.010654768, 0, 0.259067327, 0)
 TextButton_3.Size = UDim2.new(0, 95, 0, 34)
 TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Nothing"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.TextSize = 14.000
 
@@ -107,6 +115,7 @@ TextButton_4.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 TextButton_4.Position = UDim2.new(0.330821425, 0, 0.259067327, 0)
 TextButton_4.Size = UDim2.new(0, 95, 0, 34)
 TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Nothing"
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.TextSize = 14.000
 
@@ -125,6 +134,7 @@ TextButton_5.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 TextButton_5.Position = UDim2.new(0.010654768, 0, 0.37823832, 0)
 TextButton_5.Size = UDim2.new(0, 95, 0, 34)
 TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "Nothing"
 TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_5.TextSize = 14.000
 
@@ -133,6 +143,7 @@ TextButton_6.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 TextButton_6.Position = UDim2.new(0.330821425, 0, 0.37823832, 0)
 TextButton_6.Size = UDim2.new(0, 95, 0, 34)
 TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Nothing"
 TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_6.TextSize = 14.000
 
@@ -141,6 +152,7 @@ TextButton_7.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 TextButton_7.Position = UDim2.new(0.659935355, 0, 0.37823832, 0)
 TextButton_7.Size = UDim2.new(0, 95, 0, 34)
 TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Nothing"
 TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_7.TextSize = 14.000
 
@@ -150,7 +162,7 @@ DH.BackgroundColor3 = Color3.fromRGB(111, 111, 111)
 DH.Position = UDim2.new(0.330821425, 0, 0.0310880821, 0)
 DH.Size = UDim2.new(0, 95, 0, 34)
 DH.Font = Enum.Font.SourceSans
-DH.Text = "Da Hood"
+DH.Text = "Nothing"
 DH.TextColor3 = Color3.fromRGB(0, 0, 0)
 DH.TextSize = 14.000
 
@@ -165,23 +177,15 @@ TextBox_2.TextSize = 14.000
 
 -- Scripts:
 
-local function KSWD_fake_script() -- IY.Script 
+local function CUHXWFN_fake_script() -- IY.Script 
 	local script = Instance.new('LocalScript', IY)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(KSWD_fake_script)()
-local function WKTWR_fake_script() -- Jailbreak.Script 
-	local script = Instance.new('LocalScript', Jailbreak)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Splooshhy/PantherHub/main/main/sexy/script.lua"))()
-	end)
-end
-coroutine.wrap(WKTWR_fake_script)()
-local function DXRJTV_fake_script() -- Skyhub.Script 
+coroutine.wrap(CUHXWFN_fake_script)()
+local function SOJFAZ_fake_script() -- Skyhub.Script 
 	local script = Instance.new('LocalScript', Skyhub)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -194,45 +198,21 @@ local function DXRJTV_fake_script() -- Skyhub.Script
 		loadstring(game:HttpGet("http://skyhubking.xyz/script/free_script/main%20game.lua"))()
 	end)
 end
-coroutine.wrap(DXRJTV_fake_script)()
-local function YLBEF_fake_script() -- TextButton_3.Script 
-	local script = Instance.new('LocalScript', TextButton_3)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-	end)
-end
-coroutine.wrap(YLBEF_fake_script)()
-local function BWQIMEA_fake_script() -- TextButton_4.Script 
-	local script = Instance.new('LocalScript', TextButton_4)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-	end)
-end
-coroutine.wrap(BWQIMEA_fake_script)()
-local function VRIKXEN_fake_script() -- MM2.Script 
+coroutine.wrap(SOJFAZ_fake_script)()
+local function XCRJE_fake_script() -- MM2.Script 
 	local script = Instance.new('LocalScript', MM2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
 	end)
 end
-coroutine.wrap(VRIKXEN_fake_script)()
-local function XBMRV_fake_script() -- DH.Script 
-	local script = Instance.new('LocalScript', DH)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
-	end)
-end
-coroutine.wrap(XBMRV_fake_script)()
-local function XAXCM_fake_script() -- Frame.toggle 
+coroutine.wrap(XCRJE_fake_script)()
+local function MXHL_fake_script() -- Frame.toggle 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
 	game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
-		if key == "e" then
+		if key == "-" then
 			if frame.Visible == true then
 				frame.Visible = false
 			else
@@ -243,8 +223,8 @@ local function XAXCM_fake_script() -- Frame.toggle
 	
 	
 end
-coroutine.wrap(XAXCM_fake_script)()
-local function LIVEIDI_fake_script() -- Frame.Notify 
+coroutine.wrap(MXHL_fake_script)()
+local function FBRM_fake_script() -- Frame.Notify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local function callback(Text)
@@ -260,7 +240,7 @@ local function LIVEIDI_fake_script() -- Frame.Notify
 	--
 	game.StarterGui:SetCore("SendNotification",  {
 		Title = "BanditHub";
-		Text = "Bandit Hub has successfully loaded, press E to open it.";
+		Text = "Bandit Hub has successfully loaded, press - to open and close it.";
 		Icon = "";
 		Duration = 5;
 		Button1 = "ok";
@@ -268,4 +248,4 @@ local function LIVEIDI_fake_script() -- Frame.Notify
 	})
 	
 end
-coroutine.wrap(LIVEIDI_fake_script)()
+coroutine.wrap(FBRM_fake_script)()
