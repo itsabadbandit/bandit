@@ -1553,7 +1553,7 @@ local function VNYWF_fake_script() -- IY.Script
 	local script = Instance.new('LocalScript', IY)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game.HttpService:GetAsync('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
 coroutine.wrap(VNYWF_fake_script)()
