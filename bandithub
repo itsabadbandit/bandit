@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local KeySystem = Instance.new("ScreenGui")
 local Key = Instance.new("Frame")
 local Frame = Instance.new("Frame")
@@ -77,7 +82,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function FFQVD_fake_script() -- Check.LocalScript 
+local function IMKZDET_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -95,8 +100,6 @@ local function FFQVD_fake_script() -- Check.LocalScript
 		local id = game.Players.LocalPlayer.UserId
 		local player = game.Players.LocalPlayer
 		if key.Text == "eq74" then
-			if id == {"368241436", "210904233", "167240310"} then
-				player:Kick("dont use ur main idot")
 			tween:Play()
 			tween1:Play()
 			tween2:Play()
@@ -110,8 +113,8 @@ local function FFQVD_fake_script() -- Check.LocalScript
 		end
 	end
 end
-coroutine.wrap(FFQVD_fake_script)()
-local function IWDGTHW_fake_script() -- Key.Notify 
+coroutine.wrap(IMKZDET_fake_script)()
+local function SIXLUS_fake_script() -- Key.Notify 
 	local script = Instance.new('LocalScript', Key)
 
 	local function callback(Text)
@@ -135,4 +138,22 @@ local function IWDGTHW_fake_script() -- Key.Notify
 	})
 	
 end
-coroutine.wrap(IWDGTHW_fake_script)()
+coroutine.wrap(SIXLUS_fake_script)()
+local function DEAVNJA_fake_script() -- KeySystem.LocalScript 
+	local script = Instance.new('LocalScript', KeySystem)
+
+	local blacklisted = {
+		"TinyChris12345670", "zboywv", "gigar159", "whatamidoinginthis"
+	}
+	
+	game.Players.PlayerAdded:Connect(function(player)
+		for i,v in pairs(blacklisted) do
+			if v == player.Name then
+				player:Kick("use an alt")
+			end
+		end
+	end)
+	
+	
+end
+coroutine.wrap(DEAVNJA_fake_script)()
