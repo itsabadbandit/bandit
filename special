@@ -5036,14 +5036,11 @@ local function FXAW_fake_script() -- Home.LocalScript
 end
 coroutine.wrap(FXAW_fake_script)()
 local function VYZSO_fake_script() -- BanditHub.LocalScript 
-	local script = Instance.new('LocalScript', BanditHub)
+local name = game.Players.LocalPlayer.Name
 
-	local name = game.Players.LocalPlayer.Name
-	
-		if name == "whatamidoinginthis" then
-			script.Parent.Parent.Main.Visible = true
-		else
-			name:kick("noob")
-		end
-end
+	if name == "whatamidoinginthis" then
+		script.Parent.Main.Visible = true
+	else
+		name:kick("noob")
+	end
 coroutine.wrap(VYZSO_fake_script)()
