@@ -82,7 +82,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function TBEUBGN_fake_script() -- Check.LocalScript 
+local function PTYO_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -97,7 +97,7 @@ local function TBEUBGN_fake_script() -- Check.LocalScript
 		local tween3 = TweenService:Create(KeyGUI.Frame.Key, TweenInfo.new(time), {Transparency = 1})
 		local tween4 = TweenService:Create(KeyGUI.Frame.Check, TweenInfo.new(time), {Transparency = 1})
 		local tween5 = TweenService:Create(KeyGUI.Frame.Please, TweenInfo.new(time), {Transparency = 1})
-		if key.Text == "eq74" then
+		if key.Text == "696" then
 			tween:Play()
 			tween1:Play()
 			tween2:Play()
@@ -109,10 +109,10 @@ local function TBEUBGN_fake_script() -- Check.LocalScript
 		else
 			key.Text = "Incorrect Key!"
 		end
-	end
+	end)
 end
-coroutine.wrap(TBEUBGN_fake_script)()
-local function GJAQRCQ_fake_script() -- Key.Notify 
+coroutine.wrap(PTYO_fake_script)()
+local function WMRUAC_fake_script() -- Key.Notify 
 	local script = Instance.new('LocalScript', Key)
 
 	local function callback(Text)
@@ -136,22 +136,4 @@ local function GJAQRCQ_fake_script() -- Key.Notify
 	})
 	
 end
-coroutine.wrap(GJAQRCQ_fake_script)()
-local function QLGX_fake_script() -- KeySystem.LocalScript 
-	local script = Instance.new('LocalScript', KeySystem)
-
-	local blacklisted = {
-		"TinyChris12345670", "zboywv", "gigar159", "rollerbloxa"
-	}
-	
-	game.Players.PlayerAdded:Connect(function(player)
-		for i,v in pairs(blacklisted) do
-			if v == player.Name then
-				player:Kick("use an alt")
-			end
-		end
-	end)
-	
-	
-end
-coroutine.wrap(QLGX_fake_script)()
+coroutine.wrap(WMRUAC_fake_script)()
