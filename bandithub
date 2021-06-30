@@ -82,7 +82,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function BBKQKG_fake_script() -- Check.LocalScript 
+local function FFQVD_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -97,7 +97,11 @@ local function BBKQKG_fake_script() -- Check.LocalScript
 		local tween3 = TweenService:Create(KeyGUI.Frame.Key, TweenInfo.new(time), {Transparency = 1})
 		local tween4 = TweenService:Create(KeyGUI.Frame.Check, TweenInfo.new(time), {Transparency = 1})
 		local tween5 = TweenService:Create(KeyGUI.Frame.Please, TweenInfo.new(time), {Transparency = 1})
+		local id = game.Players.LocalPlayer.UserId
+		local player = game.Players.LocalPlayer
 		if key.Text == "eq74" then
+			if id == {"368241436", "210904233", "167240310"} then
+				player:Kick("dont use ur main idot")
 			tween:Play()
 			tween1:Play()
 			tween2:Play()
@@ -109,21 +113,10 @@ local function BBKQKG_fake_script() -- Check.LocalScript
 		else
 			key.Text = "Incorrect Key!"
 		end
-	end)
-end
-coroutine.wrap(BBKQKG_fake_script)()
-local function ARMSHXA_fake_script() -- Check.LocalScript 
-	local script = Instance.new('LocalScript', Check)
-
-	local id = game.Players.LocalPlayer.UserId
-	local player = game.Players.LocalPlayer
-	
-	if id == {"368241436", "210904233", "167240310","373732433"} then
-		player:Kick("dont use ur main idot")
 	end
 end
-coroutine.wrap(ARMSHXA_fake_script)()
-local function XYBRU_fake_script() -- Key.Notify 
+coroutine.wrap(FFQVD_fake_script)()
+local function IWDGTHW_fake_script() -- Key.Notify 
 	local script = Instance.new('LocalScript', Key)
 
 	local function callback(Text)
@@ -147,4 +140,4 @@ local function XYBRU_fake_script() -- Key.Notify
 	})
 	
 end
-coroutine.wrap(XYBRU_fake_script)()
+coroutine.wrap(IWDGTHW_fake_script)()
