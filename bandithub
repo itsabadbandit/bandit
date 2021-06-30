@@ -97,7 +97,7 @@ local function PTYO_fake_script() -- Check.LocalScript
 		local tween3 = TweenService:Create(KeyGUI.Frame.Key, TweenInfo.new(time), {Transparency = 1})
 		local tween4 = TweenService:Create(KeyGUI.Frame.Check, TweenInfo.new(time), {Transparency = 1})
 		local tween5 = TweenService:Create(KeyGUI.Frame.Please, TweenInfo.new(time), {Transparency = 1})
-		if key.Text == "eq74" then
+		if key.Text == "696" then
 			tween:Play()
 			tween1:Play()
 			tween2:Play()
