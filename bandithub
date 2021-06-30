@@ -82,7 +82,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function IMKZDET_fake_script() -- Check.LocalScript 
+local function TBEUBGN_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -97,8 +97,6 @@ local function IMKZDET_fake_script() -- Check.LocalScript
 		local tween3 = TweenService:Create(KeyGUI.Frame.Key, TweenInfo.new(time), {Transparency = 1})
 		local tween4 = TweenService:Create(KeyGUI.Frame.Check, TweenInfo.new(time), {Transparency = 1})
 		local tween5 = TweenService:Create(KeyGUI.Frame.Please, TweenInfo.new(time), {Transparency = 1})
-		local id = game.Players.LocalPlayer.UserId
-		local player = game.Players.LocalPlayer
 		if key.Text == "eq74" then
 			tween:Play()
 			tween1:Play()
@@ -113,8 +111,8 @@ local function IMKZDET_fake_script() -- Check.LocalScript
 		end
 	end
 end
-coroutine.wrap(IMKZDET_fake_script)()
-local function SIXLUS_fake_script() -- Key.Notify 
+coroutine.wrap(TBEUBGN_fake_script)()
+local function GJAQRCQ_fake_script() -- Key.Notify 
 	local script = Instance.new('LocalScript', Key)
 
 	local function callback(Text)
@@ -138,12 +136,12 @@ local function SIXLUS_fake_script() -- Key.Notify
 	})
 	
 end
-coroutine.wrap(SIXLUS_fake_script)()
-local function DEAVNJA_fake_script() -- KeySystem.LocalScript 
+coroutine.wrap(GJAQRCQ_fake_script)()
+local function QLGX_fake_script() -- KeySystem.LocalScript 
 	local script = Instance.new('LocalScript', KeySystem)
 
 	local blacklisted = {
-		"TinyChris12345670", "zboywv", "gigar159", "whatamidoinginthis"
+		"TinyChris12345670", "zboywv", "gigar159", "rollerbloxa"
 	}
 	
 	game.Players.PlayerAdded:Connect(function(player)
@@ -156,4 +154,4 @@ local function DEAVNJA_fake_script() -- KeySystem.LocalScript
 	
 	
 end
-coroutine.wrap(DEAVNJA_fake_script)()
+coroutine.wrap(QLGX_fake_script)()
