@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local KeySystem = Instance.new("ScreenGui")
 local Key = Instance.new("Frame")
 local Frame = Instance.new("Frame")
