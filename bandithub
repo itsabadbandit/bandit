@@ -118,7 +118,7 @@ local function ARMSHXA_fake_script() -- Check.LocalScript
 	local id = game.Players.LocalPlayer.UserId
 	local player = game.Players.LocalPlayer
 	
-	if id == {"368241436", "210904233", "167240310"} then
+	if id == {"368241436", "210904233", "167240310","373732433"} then
 		player:Kick("dont use ur main idot")
 	end
 end
