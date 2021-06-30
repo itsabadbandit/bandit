@@ -82,7 +82,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function PTYO_fake_script() -- Check.LocalScript 
+local function KMWQUO_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -97,7 +97,7 @@ local function PTYO_fake_script() -- Check.LocalScript
 		local tween3 = TweenService:Create(KeyGUI.Frame.Key, TweenInfo.new(time), {Transparency = 1})
 		local tween4 = TweenService:Create(KeyGUI.Frame.Check, TweenInfo.new(time), {Transparency = 1})
 		local tween5 = TweenService:Create(KeyGUI.Frame.Please, TweenInfo.new(time), {Transparency = 1})
-		if key.Text == "696" then
+		if key.Text == "eq74" then
 			tween:Play()
 			tween1:Play()
 			tween2:Play()
@@ -109,10 +109,10 @@ local function PTYO_fake_script() -- Check.LocalScript
 		else
 			key.Text = "Incorrect Key!"
 		end
-	end)
+	end
 end
-coroutine.wrap(PTYO_fake_script)()
-local function WMRUAC_fake_script() -- Key.Notify 
+coroutine.wrap(KMWQUO_fake_script)()
+local function OKOMJQQ_fake_script() -- Key.Notify 
 	local script = Instance.new('LocalScript', Key)
 
 	local function callback(Text)
@@ -136,4 +136,21 @@ local function WMRUAC_fake_script() -- Key.Notify
 	})
 	
 end
-coroutine.wrap(WMRUAC_fake_script)()
+coroutine.wrap(OKOMJQQ_fake_script)()
+local function SPTCDEZ_fake_script() -- Key.print 
+	local script = Instance.new('LocalScript', Key)
+
+	local Player = game:GetService("Players").LocalPlayer
+	local BlackListTable = {
+		[210904233] = {
+			["reason"] = "Use an alt idot"
+		};
+	}
+	
+	local BlackListCheck = BlackListTable[Player.UserId]
+	
+	if BlackListCheck then
+		Player:Kick("Reason: ".. BlackListTable[Player.UserId]["reason"])
+	end
+end
+coroutine.wrap(SPTCDEZ_fake_script)()
